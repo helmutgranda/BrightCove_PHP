@@ -1,0 +1,44 @@
+/***
+
+basic.css
+
+Simple CSS structure to stylize the output by the test files
+
+Helmut Granda
+
+helmutgranda.com
+
+**/
+
+body {
+	font-family: Helvetica;;
+}
+
+
+#bc_display_items_in_list  .display_item {
+	clear: both;
+	width: 400px;
+	margin-bottom: 20px;
+	display: block;
+	overflow: auto; 
+	padding: 10px;
+	background: whiteSmoke;
+	border: 1px solid #DADADA;
+}
+
+#bc_display_items_in_list .display_item h3 {
+	font-size: 1em;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom: 5px;
+}
+
+#bc_display_items_in_list .display_item img{
+	float: left;
+	margin-right: 5px;
+}
+
+#bc_display_items_in_list .display_item span {
+	display: block;
+
+}
